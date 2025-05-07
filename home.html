@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskFlow</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>TaskFlow</h1>
+        <p>Organize suas tarefas de forma simples e eficiente</p>
+    </header>
+
+    <main>
+        <section class="task-form">
+            <h2>Nova Tarefa</h2>
+            <form action="#" method="post">
+                <input type="text" name="taskTitle" placeholder="Título da tarefa" required>
+                <textarea name="taskDescription" placeholder="Descrição da tarefa"></textarea>
+                <input type="date" name="taskDate">
+                <select name="taskPrioridade">
+                    <option value="Alta">Alta prioridade</option>
+                    <option value="Media">Média prioridade</option>
+                    <option value="Baixa">Baixa prioridade</option>
+                </select>
+                <button type="submit">Adicionar tarefa</button>
+            </form>
+        </section>
+
+        <section class="task-list">
+            <h2>Tarefas</h2>
+            <ul>
+                <!-- PRIORIDADE ALTA -->
+                <li>
+                    <h3>Comprar mantimentos</h3>
+                    <p>Comprar leite, pão e ovos no supermercado.</p>
+                    <div class="info-extra">
+                        <span class="prioridade-alta">Prioridade: Alta</span>
+                        <small>Prazo: 2025-05-01</small>
+                    </div>
+                    <button disabled>Concluir</button>
+                </li>
+                <li>
+                    <h3>Enviar e-mail para o professor</h3>
+                    <p>Escrever e enviar e-mail com dúvidas sobre a atividade de programação web.</p>
+                    <div class="info-extra">
+                        <span class="prioridade-alta">Prioridade: Alta</span>
+                        <small>Prazo: 2025-04-20</small>
+                    </div>
+                    <button disabled>Concluir</button>
+                </li>
+
+                <!-- PRIORIDADE MÉDIA -->
+                <li>
+                    <h3>Estudar para a prova</h3>
+                    <p>Revisar os tópicos de matemática e história.</p>
+                    <div class="info-extra">
+                        <span class="prioridade-media">Prioridade: Média</span>
+                        <small>Prazo: 2025-05-01</small>
+                    </div>
+                    <button disabled>Concluir</button>
+                </li>
+                <li>
+                    <h3>Limpar a casa</h3>
+                    <p>Lavar o banheiro, a louça e arrumar o quarto.</p>
+                    <div class="info-extra">
+                        <span class="prioridade-media">Prioridade: Média</span>
+                        <small>Prazo: 2025-05-01</small>
+                    </div>
+                    <button disabled>Concluir</button>
+                </li>
+                <li>
+                    <h3>Atualizar currículo</h3>
+                    <p>Adicionar os projetos mais recentes e revisar formatação.</p>
+                    <div class="info-extra">
+                        <span class="prioridade-media">Prioridade: Média</span>
+                        <small>Prazo: 2025-05-05</small>
+                    </div>
+                    <button disabled>Concluir</button>
+                </li>
+
+                <!-- PRIORIDADE BAIXA -->
+                <li>
+                    <h3>Agendar consulta</h3>
+                    <p>Marcar consulta com o dentista.</p>
+                    <div class="info-extra">
+                        <span class="prioridade-baixa">Prioridade: Baixa</span>
+                        <small>Prazo: 2025-05-01</small>
+                    </div>
+                    <button disabled>Concluir</button>
+                </li>
+                <li>
+                    <h3>Fazer backup dos arquivos</h3>
+                    <p>Salvar todos os documentos importantes na nuvem.</p>
+                    <div class="info-extra">
+                        <span class="prioridade-baixa">Prioridade: Baixa</span>
+                        <small>Prazo: 2025-04-30</small>
+                    </div>
+                    <button disabled>Concluir</button>
+                </li>
+                <li>
+                    <h3>Ler capítulo do livro</h3>
+                    <p>Ler o capítulo 4 do livro de lógica de programação.</p>
+                    <div class="info-extra">
+                        <span class="prioridade-baixa">Prioridade: Baixa</span>
+                        <small>Prazo: 2025-04-25</small>
+                    </div>
+                    <button disabled>Concluir</button>
+                </li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
