@@ -1,0 +1,111 @@
+
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+
+body {
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ background: linear-gradient(135deg, #e0eafc, #cfdef3);
+ height: 100vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+
+.container {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 100%;
+}
+
+
+
+
+.login-box {
+ background-color: #ffffff;
+ padding: 100px 40px;
+ border-radius: 16px;
+ box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+ width: 900px;
+ max-width: 100%;
+ text-align: center;
+}
+
+
+.app-title {
+ font-size: 32px;
+ font-weight: 700;
+ color: #1e90ff;
+ margin-bottom: 10px;
+}
+
+
+
+
+.login-title {
+ font-size: 20px;
+ margin-bottom: 30px;
+ color: #333;
+}
+
+
+
+
+.login-box input {
+ width: 100%;
+ padding: 12px 15px;
+ margin-bottom: 20px;
+ border: 1px solid #ddd;
+ border-radius: 8px;
+ font-size: 14px;
+ transition: border-color 0.3s;
+}
+
+
+.login-box input:focus {
+ border-color: #1e90ff;
+ outline: none;
+}
+
+
+
+
+.login-box button {
+ width: 100%;
+ padding: 12px;
+ background-color: #1e90ff;
+ color: #fff;
+ border: none;
+ border-radius: 8px;
+ font-size: 16px;
+ cursor: pointer;
+ transition: background-color 0.3s;
+}
+
+
+.login-box button:hover {
+ background-color: #006fd6;
+}
+
+
+.info {
+ margin-top: 20px;
+ font-size: 14px;
+ color: #555;
+}
+
+
+.info a {
+ color: #1e90ff;
+ text-decoration: none;
+}
+
+
+.info a:hover {
+ text-decoration: underline;
+}
